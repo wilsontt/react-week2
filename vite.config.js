@@ -6,7 +6,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   // 產品、開發中 的路徑䛀定
   // :的前面是 正式環境，：的後面是 開發中環境。
-    base: process.env.NODE_ENV === 'production' ? '/react-gh-pages-sample/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/react-week2/' : '/',
   plugins: [
     react(),
     tailwindcss(),
